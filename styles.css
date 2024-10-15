@@ -1,0 +1,66 @@
+.heading{
+    background: #adf345df;
+    width:100%;
+    margin:0px;
+border-radius: 20px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.logo{
+    width: 200px;
+    margin-left: 50%;
+    margin-right: 50%;
+}
+.h2 h1{
+    color:bisque;
+}
+.container{
+    display: flex;
+  align-items: stretch;
+}
+.h2{
+    flex:1;
+    margin:10px;
+    background: #dd2389;
+    max-width: 400PX;
+    min-width:300px;
+    padding: 30px ;
+    margin:20px;
+    border-radius: 20px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+   
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    
+}
+.welcome{
+    padding:12px;
+    position:relative;
+    font-weight:600px;
+    font-size:60vp;
+    
+}
+.date{
+    font-size:15px;
+    font-weight: 300;
+    margin-right:0px;
+    color:#000;
+    margin-right: 0px;
+    display: flex;
+    align-items: right;
+    width:200px;
+}
+#date,#month,#year{
+    display:inline-block;
+    margin-right:0px;
+   justify-content: right;
+
+}
+body{
+    background: #ddf;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+   
+    
+    <img src="VS-logo-01.png" alt="logo" class="logo" >
+   
+<div class="date">Today: <div id="month"></div><div id="date"> : </div><div id="year"> : </div></div>
+   
+    
+    <nav class="heading"><div><h1 class="welcome">WELCOME TO ELIZABETH VULCAN SOCIETY</h1></div> </nav>
+   <div class="container" id="main-section">
+    <div class="h2" id="mission">
+        <h1>Mission Statement</h1>
+        <P>At the Elizabeth Vulcan Society, our mission is to empower and uplift minority communities by fostering awareness, understanding, and support through our outreach initiatives. </P>
+        <P>We are dedicated to providing opportunities for individuals to pursue careers in firefighting and advance their education.</P>
+        <P>Through community service programs such as Toys for Tots, car washes, and state exam preparation classes, we strive to build a stronger, more inclusive community where everyone feels valued and supported.</P>
+    </div>
+    <div class="h2" id="purpose">
+        <h1>Our Purpose</h1>
+        <P>The purpose of the Elizabeth Vulcan Society is to bridge the gap between minority communities and the firefighting profession by providing support, resources, and opportunities</P>
+       <ol>
+        <li>Raise awareness about the role of firefighters and the importance of diversity within the profession.</li>
+        <li>Offer educational programs and outreach initiatives to help community members pursue careers in firefighting.</li>
+        <li>Provide community service projects, including Toys for Tots, car washes, and exam preparation classes, to foster community engagement and support.</li>
+        <li>Create a nurturing environment where individuals from all backgrounds feel empowered to achieve their goals and contribute to the safety and well-being of our community.
+
+        </li>
+       </ol>
+    </div>
+   </div> 
+   <script>
+    let month=document.getElementById("month");
+    let day=document.getElementById("date");
+    let year=document.getElementById("year");
+    let date=new Date();
+    month.innerText+=date.getMonth()+1;
+    day.innerText+=" "+date.getDate();
+    year.innerText+=" "+date.getFullYear();
+    
+   
+   </script>
+</body>
+</html>
